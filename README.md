@@ -27,6 +27,7 @@
    - then open the folder that should be called appname.app 
    - then open info.plist
    - it should be com.devname.appname, org.devname.appname or just xxx.devname.appname
+     
 devname, appname are placeholders for the developer name and the Application Name
 
 
