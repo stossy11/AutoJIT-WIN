@@ -35,32 +35,8 @@ if __name__ == "__main__":
     print("starting tunnel to device...")
     print("This might take a while. In case it freezes, either close this window and kill every python process in task manager or simply reboot your PC.")
     #run pymobiledevice3 as subprocess, exit and log errors if tunnel crashes
-    tunnel_process = subprocess.Popen("python3 -m pymobiledevice3 remote tunneld --script-mode", stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    tunnel_process = subprocess.Popen("python3 -m pymobiledevice3 remote tunneld")
     atexit.register(exit_func, tunnel_process)
-    while True:
-        output = tunnel_process.stdout.readline()
-        if output:
-            rsd_val = output.decode().strip()
-            break
-        if tunnel_process.poll() is not None:
-            error = tunnel_process.stderr.readlines()
-            if error:
-                not_connected = None
-                admin_error = None
-                for i in range(len(error)):
-                    if (error[i].find(b'connected') > -1):
-                        not_connected = True
-                    if (error[i].find(b'admin') > -1):
-                        admin_error = True
-                if not_connected:
-                    print_error("It seems like your device isn't connected.", error)
-                elif admin_error:
-                    print_error("It seems like you're not running this script as admin, which is required.", error)
-                else:
-                    print_error("Error opening a tunnel.", error)
-                sys.exit()
-            break
-    rsd_str = str(rsd_val)
     print("Sucessfully created tunnel: " + rsd_str)
 
     #mount diskimage
