@@ -89,7 +89,12 @@ Test out the shortcut. You can add it to your Home Screen as an app with a custo
 
 # Troubleshooting
 
-Go to the https://github.com/fritzlb/iOS17-JIT-WIN Project as this is Based on that
+DM me on discord @stossy11
 
+# Special People Who helped
 
+1. nythepegasus for making the script and teaching me how to do this
+2. Doronz88 for making the Fork of pymobiledevice3 that allows you to enable JIT on windows over the wifi
+3. plizeee for making the original shortcut
+4. Me (Stossy11) for putting this entire project into motion
 
