@@ -47,9 +47,11 @@ Note: AutoJIT is only really useful for iOS 17, since there are various better a
 3. Download/Clone this repo (green button -> download zip)
 4. Extract the zip file at a location of your choice.
 5. Install python from https://www.python.org/downloads/. Make sure to add it to your PATH.
-6. Run install.bat in the scripts folder by double clicking it.
+6. Run install.bat by double clicking it.
 
 ## iOS Device:
+
+# Standard Version that asks you what app you want
 1. Download `AutoJIT-WIN.shortcut` on your iOS device
 2. Tap the shortcut from files 
 3. Answer the questions:
@@ -62,6 +64,21 @@ Note: AutoJIT is only really useful for iOS 17, since there are various better a
       - Note: Your password is stored in plain text in the `AutoJIT-WIN` shortcut, so be careful with this option.
    5. Enter your password if you chose to save it in the previous question. Otherwise, leave it blank.
    6. Enter "Yes" if you want sound to play when JIT is enabled. Otherwise, enter "No"
+   
+# Auto Version that is meant for a Automation
+1. Download `AutoJIT-WIN-AUTO.shortcut` on your iOS device
+2. Tap the shortcut from files
+   1. Enter the path to the `AutoJIT-WIN` folder on your PC
+      - To get the path, right-click the `AutoJIT-WIN` folder and click **Copy as Path** and paste the text somewhere.
+   2. Enter the hostname or local IP of your PC
+      - To find this, follow this very short guide https://www.med.unc.edu/it/guide/operating-systems/how-do-i-find-the-host-name-ip-address-or-physical-address-of-my-machine/
+   3. Enter the username of your PC
+   4. Enter "Yes" if you want to save your password. Otherwise, enter "No" and you will be prompted for your password every time you run the shortcut.
+      - Note: Your password is stored in plain text in the `AutoJIT-WIN` shortcut, so be careful with this option.
+   5. Enter your password if you chose to save it in the previous question. Otherwise, leave it blank.
+   6. Enter "Yes" if you want sound to play when JIT is enabled. Otherwise, enter "No"
+   7. bundle id for what App would you like auto enable JIT without menu
+   8. Name for app you would like to auto enable JIT without menu
 
 Test out the shortcut by Pluging in your device to your PC and Running the shortcut. You can add it to your Home Screen as an app with a custom icon, if you'd like.
 
