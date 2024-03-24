@@ -47,7 +47,7 @@ Note: AutoJIT is only really useful for iOS 17, since there are various better a
 3. Download/Clone this repo (green button -> download zip)
 4. Extract the zip file at a location of your choice.
 5. Install python from https://www.python.org/downloads/. Make sure to add it to your PATH.
-6. Run install.bat by double clicking it.
+6. Run install.bat in the scripts folder by double clicking it.
 
 ## iOS Device:
 1. Download `AutoJIT-WIN.shortcut` on your iOS device
