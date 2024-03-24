@@ -8,8 +8,8 @@
 1. No longer works over local network
 
 ## What does AutoJIT do to solve these issues?
-- It can trigger the script above from your iOS device by activating a shortcut that runs a command on the WIN using the SSH action that is WIRED only
-https://github.com/plizeee/AutoJIT
+- It can trigger the script above from your iOS device by activating a shortcut that runs a command on your PC using the SSH action that is WIRED only
+
 ## What Devices support AutoJIT?
 - Every should work but iPhone 13 or Newer Might not work
 
