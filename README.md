@@ -1,17 +1,19 @@
 # AutoJIT-WIN
 
 ## What is AutoJIT-WIN?
-- AutoJIT-WIN is an WIRED automation tool that enables Windows users to enable JIT Automatically, without manually interacting with CMD every single time. Based on [AutoJIT for Mac](https://github.com/plizeee/AutoJIT)  By @plizeee and [iOS17-JIT-WIN](https://github.com/fritzlb/iOS17-JIT-WIN/tree/main)
+- AutoJIT-WIN is an wireless automation tool that enables Windows users to enable JIT Automatically, without manually interacting with CMD every single time. Based on [AutoJIT for Mac](https://github.com/plizeee/AutoJIT)  By @plizeee and [iOS17-JIT-WIN](https://github.com/fritzlb/iOS17-JIT-WIN/tree/main) an
 
 ## Why does AutoJIT-WIN exist?
 - iOS 17 nerfed previous popular methods of enabling JIT by:
 1. No longer being able to Automatically Enable JIT on your iOS Device
+2. No longer being able to Wirelessly Enable JIT on your iOS Device
 
 ## What does AutoJIT do to solve these issues?
-- It can trigger the script above from your iOS device by activating a shortcut that runs a command on your PC using the SSH action that is WIRED only
+- It uses ssh to run a python script that enables jit wirelessly and from your device
+
 
 ## What Devices support AutoJIT?
-- Every should work but iPhone 13 or Newer Might not work
+- Every should
 
 ## How do I add more apps?
 - Edit the shortcut
