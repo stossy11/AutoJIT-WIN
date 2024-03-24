@@ -52,6 +52,7 @@ Note: AutoJIT is only really useful for iOS 17, since there are various better a
 6. Install python from https://www.python.org/downloads/. Make sure to add it to your PATH.
 7. Connect your device
 8. Run install.bat by double clicking it Make sure your device is plugged in.
+9. Restart your PC
 
 ## iOS Device:
 
