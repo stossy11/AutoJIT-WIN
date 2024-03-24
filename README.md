@@ -5,7 +5,7 @@
 
 ## Why does AutoJIT-WIN exist?
 - iOS 17 nerfed previous popular methods of enabling JIT by:
-No longer being able to Automatically Enable JIT on your iOS Device
+1. No longer being able to Automatically Enable JIT on your iOS Device
 
 ## What does AutoJIT do to solve these issues?
 - It can trigger the script above from your iOS device by activating a shortcut that runs a command on your PC using the SSH action that is WIRED only
