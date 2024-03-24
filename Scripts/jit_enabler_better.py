@@ -35,7 +35,7 @@ if __name__ == "__main__":
     print("starting tunnel to device...")
     print("This might take a while. In case it freezes, either close this window and kill every python process in task manager or simply reboot your PC.")
     #run pymobiledevice3 as subprocess, exit and log errors if tunnel crashes
-    tunnel_process = subprocess.Popen("python -m pymobiledevice3 remote start-tunnel --script-mode", stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+    tunnel_process = subprocess.Popen("python3 -m pymobiledevice3 remote tunneld --script-mode", stdout=subprocess.PIPE, stderr=subprocess.PIPE)
     atexit.register(exit_func, tunnel_process)
     while True:
         output = tunnel_process.stdout.readline()
