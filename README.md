@@ -1,7 +1,7 @@
 # AutoJIT-WIN
 
 ## What is AutoJIT-WIN?
-- AutoJIT-WIN is an wireless automation tool that enables Windows users to enable JIT Automatically, without manually interacting with CMD every single time. Based on [AutoJIT for Mac](https://github.com/plizeee/AutoJIT)  By @plizeee and [iOS17-JIT-WIN](https://github.com/fritzlb/iOS17-JIT-WIN/tree/main) an
+- AutoJIT-WIN is an wireless automation tool that enables Windows users to enable JIT Automatically, without manually interacting with CMD every single time. Based on [AutoJIT for Mac](https://github.com/plizeee/AutoJIT)  By @plizeee and [Doronz88 fork of pymd3]((https://github.com/doronz88/pymobiledevice3)) 
 
 ## Why does AutoJIT-WIN exist?
 - iOS 17 nerfed previous popular methods of enabling JIT by:
