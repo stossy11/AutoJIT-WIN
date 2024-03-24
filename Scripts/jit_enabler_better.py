@@ -37,7 +37,7 @@ if __name__ == "__main__":
     #run pymobiledevice3 as subprocess, exit and log errors if tunnel crashes
     tunnel_process = subprocess.Popen("python3 -m pymobiledevice3 remote tunneld")
     atexit.register(exit_func, tunnel_process)
-    print("Sucessfully created tunnel: " + rsd_str)
+    print("Sucessfully created tunnel")
 
     #mount diskimage
 
