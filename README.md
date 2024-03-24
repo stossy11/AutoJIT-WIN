@@ -61,7 +61,7 @@ Note: AutoJIT is only really useful for iOS 17, since there are various better a
       - Note: Your password is stored in plain text in the `AutoJIT-WIN` shortcut, so be careful with this option.
    5. Enter your password if you chose to save it in the previous question. Otherwise, leave it blank.
    6. Enter "Yes" if you want sound to play when JIT is enabled. Otherwise, enter "No".
-   7.  Run the shortcut
+ 7.  Run the shortcut
 
 Test out the shortcut by Pluging in your device to your PC. You can add it to your Home Screen as an app with a custom icon, if you'd like.
 
