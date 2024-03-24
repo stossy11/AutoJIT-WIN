@@ -24,9 +24,9 @@
 1. Google it
 2. Use Altstore (no guide yet just use the one below)
 3. Extract the iPA 
-   - then open the folder that should be called <app name>.app 
+   - then open the folder that should be called appname.app 
    - then open info.plist
-   - it should be com.<devname>.appname, org.<devname>.appname or just xxx.<devname>.appname
+   - it should be com.devname.appname, org.devname.appname or just xxx.devname.appname
 
 # Setup
 
