@@ -20,6 +20,15 @@
 - Add a `Set Variable` (within the new menu item) action, enter `App` as the variable name
 - Select `Input`, then `Select Variable`, then select the text block you just added
 
+## How to find App Bundle id
+1. Google it
+2. Use altstore
+   -
+3. Extract the iPA 
+   - then open the folder that should be called <app name>.app 
+   - then open info.plist
+   - it should be com.<devname>.appname, org.<devname>.appname or just xxx.<devname>.appname
+
 # Setup
 
 ## Requirements:
