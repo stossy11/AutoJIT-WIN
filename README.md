@@ -47,10 +47,11 @@ Note: AutoJIT is only really useful for iOS 17, since there are various better a
 1. Enable SSH:
    - https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui#install-openssh-for-windows
 3. Download/Clone this repo (green button -> download zip)
-4. Extract the zip file at a location of your choice.
-5. Install python from https://www.python.org/downloads/. Make sure to add it to your PATH.
-6. Connect your device
-7. Run install.bat by double clicking it.
+4. Install iTunes.
+5. Extract the zip file at a location of your choice.
+6. Install python from https://www.python.org/downloads/. Make sure to add it to your PATH.
+7. Connect your device
+8. Run install.bat by double clicking it Make sure your device is plugged in.
 
 ## iOS Device:
 
