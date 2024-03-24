@@ -22,8 +22,7 @@
 
 ## How to find App Bundle id
 1. Google it
-2. Use altstore
-   -
+2. Use Altstore (no guide yet just use the one below)
 3. Extract the iPA 
    - then open the folder that should be called <app name>.app 
    - then open info.plist
