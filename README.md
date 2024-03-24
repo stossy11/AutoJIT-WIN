@@ -49,7 +49,8 @@ Note: AutoJIT is only really useful for iOS 17, since there are various better a
 3. Download/Clone this repo (green button -> download zip)
 4. Extract the zip file at a location of your choice.
 5. Install python from https://www.python.org/downloads/. Make sure to add it to your PATH.
-6. Run install.bat by double clicking it.
+6. Connect your device
+7. Run install.bat by double clicking it.
 
 ## iOS Device:
 
@@ -82,7 +83,7 @@ Note: AutoJIT is only really useful for iOS 17, since there are various better a
    7. bundle id for what App would you like auto enable JIT without menu
    8. Name for app you would like to auto enable JIT without menu
 
-Test out the shortcut by Pluging in your device to your PC and Running the shortcut. You can add it to your Home Screen as an app with a custom icon, if you'd like.
+Test out the shortcut. You can add it to your Home Screen as an app with a custom icon, if you'd like.
 
 # Troubleshooting
 
