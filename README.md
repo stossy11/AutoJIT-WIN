@@ -51,8 +51,10 @@ Note: AutoJIT is only really useful for iOS 17, since there are various better a
 5. Extract the zip file at a location of your choice.
 6. Install python from https://www.python.org/downloads/. Make sure to add it to your PATH.
 7. Connect your device
-8. Run install.bat by double clicking it Make sure your device is plugged in.
-9. Restart your PC
+8. Follow the Installing Scoop from here in powershell https://gist.github.com/nythepegasus/78c4f1474367a0fd4eef4c55a06cf919
+9. Then run the Installing Dependencies commands from   ^
+10. Run install.bat by double clicking it Make sure your device is plugged in.
+11. Restart your PC
 
 ## iOS Device:
 
