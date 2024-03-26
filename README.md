@@ -1,5 +1,9 @@
 # AutoJIT-WIN
 
+## PLEASE USE SIDEJIT INSTEAD
+https://github.com/nythepegasus/SideJIT
+
+
 ## What is AutoJIT-WIN?
 - AutoJIT-WIN is an wireless automation tool that enables Windows users to enable JIT Automatically, without manually interacting with CMD every single time. Based on [AutoJIT for Mac](https://github.com/plizeee/AutoJIT)  By @plizeee and [Doronz88 fork of pymd3]((https://github.com/doronz88/pymobiledevice3)) 
 
